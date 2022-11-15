@@ -388,6 +388,7 @@ main {
   justify-content: center;
   align-items: center;
   margin-top: 10%;
+  margin-bottom: 15%;
   max-width: 1300px;
 }
 .title-acces h2{
@@ -526,10 +527,47 @@ main {
   background-color: tan;
 }
 
-#beneficios {
-  height: 100vh;
+#about-us {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
+.about-us-title h3 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.about-us-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  max-width: 1200px;
+}
+
+.about-us-info {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  z-index: 2;
+}
+
+.about-us-info p {
+  color: white;
+  font-size: 18px;
+  margin-top: 8%;
+}
+
+.about-us-img {
+  width: 30%;
+  margin-left: -100px;
+}
+
+.about-us-img img {
+  width: 500px;
+}
 
 
 
