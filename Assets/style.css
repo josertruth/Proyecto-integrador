@@ -72,6 +72,24 @@ header {
   font-size: 14px;
 }
 
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.login-icon {
+  font-weight: 600;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
+}
+
+.login a {
+  color: rgba(143, 14, 14, 0.777);
+}
+
 .fa-cart-shopping {
   color: white;
 }
