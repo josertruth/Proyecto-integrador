@@ -31,9 +31,8 @@
     order: 2;
 }
 
-.menu-label img {
-    height: 20px;
-    width: 25px;
+.fas {
+    color: white;
 }
 
 .cart-icon {
@@ -45,65 +44,44 @@
     display: flex;
 }
 
-.hero-info {
-    width: 100%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+.container-inicio {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.hero-info h1 {
-    width: 90%;
-    max-width: 500px;
-    min-width: unset;
-}
-.hero-info p {
-    width: 60%;
-    max-width: 600px;
-}
-.hero-card {
-    display: none;
+.info-inicio p {
+  text-align: center;
 }
 
-#info h2 {
-    text-align: center;
-    width: 80%;
+.info-inicio a {
+  display: none;
 }
 
-  .info-cards-container {
-    max-width: 80%;
-  }
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  #discover {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-  }
+.card {
+  width: 500px;
+}
 
-  .discover-info {
-    flex-direction: column;
-    align-items: center;
-  }
+.cards i {
+  display: none;
+}
 
-  .discover-cards {
-    flex-direction: column;
-  }
+.about-us-img {
+  display: none;
+}
 
-  .discover-cards img {
-    width: 100%;
-  }
-
-  .categories {
-    flex-wrap: wrap;
-    max-width: 390px;
-  }
-
-  .category {
-    width: 120px;
-  }
+.about-us-info {
+  text-align: center;
+}
 }
 
 @media (max-width: 576px) {
@@ -117,60 +95,37 @@
     flex-wrap: wrap;
 }
 
-.hero-info p {
-    width: 70%;
-    max-width: unset;
-  }
+.info-inicio h1 {
+  font-size: 40px;
+  background: -webkit-linear-gradient(to right, brown, #00467F); 
+  background: linear-gradient(to bottom, brown, #00467F); 
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+}
 
-  .info-card {
-    width: 100%;
-    height: 350px;
-    justify-content: center;
-  }
+.info-inicio p {
+  display: none;
+}
 
-  .info-card p {
-    width: 90%;
-  }
+.card-1 {
+  margin-top: 40px;
+  width: 100%;
+}
 
-  #discover {
-    width: 80%;
-  }
-  #discover h2 {
-    font-size: 48px;
-    width: 100%;
-  }
+.about-us-parrafo {
+  display: none;
+}
 
-  .discover-text a {
-    font-size: 20px;
-  }
+.filter-nav li a {
+  font-size: 15px;
+}
 
-  .discover-cards {
-    gap: 20px;
-  }
-
-  .categories {
-    max-width: 300px;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .products-container {
-    width: 80%;
-  }
-
-  .product {
-    width: 100%;
-  }
-
-  .footer-links {
-    flex-direction: column;
-    text-align: center;
-  }
 }
 
 
 
-/* contactos */
+/* conocenos */
 @media (max-width: 950px) {
 .contact-us{
     width: 90%;

@@ -21,6 +21,17 @@ body {
 .container {
   position: relative;
   width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+}
+
+.container-signup {
+  position: relative;
+  width: 400px;
   height: 700px;
   border-radius: 20px;
   padding: 40px;
@@ -40,13 +51,13 @@ body {
 
 .brand-logo img {
     margin: auto;
-    width: 110px;
+    width: 120px;
     height: 110px;
 }
 
 .brand-title {
   margin-top: 10px;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1.8rem;
   color: tan;
   letter-spacing: 1px;

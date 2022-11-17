@@ -95,7 +95,9 @@ header {
 }
 
 .cart {
-  background: #839aa8;
+  background: #00467F;
+  background: -webkit-linear-gradient(to right, rgb(165, 204, 130), #00467F); 
+  background: linear-gradient(to bottom, #A5CC82, #00467F); 
   position: absolute;
   top: 65px;
   right: 0;
@@ -199,12 +201,12 @@ header {
 }
 
 .cart-total p {
-  color: var(--footer);
+  color: white;
   font-weight: 700;
 }
 
 .cart-total span {
-  color: var(--footer);
+  color: white;
   font-weight: 400;
   font-size: 18px;
 }
@@ -214,6 +216,7 @@ header {
   padding: 8px;
   font-weight: 600;
   font-size: 15px;
+  cursor: pointer;
 }
 
 /*Ocultar/mostrar carrito*/
@@ -264,8 +267,8 @@ main {
   display: flex;
   flex-direction: column;
   width: 60%;
-  padding: 15px;
-  gap: 30px;
+  padding: 0px 20px;
+  gap: 20px;
 }
 
 .info-inicio h1 {
@@ -278,13 +281,13 @@ main {
 .info-inicio p {
     font-size: 30px;
     color: white;
-    padding: 20px;
+    padding: 10px;
     text-align: justify;
 }
 
 .info-inicio a {
     border-radius: 10px;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     background-color: tan;
     width: 120px;
@@ -310,6 +313,33 @@ main {
     font-size: 40px;
     text-align: right;
     z-index: 2;
+}
+
+/* ANIMACIONES  */
+
+.card-1 {
+    animation: fade 1s ease-in, slide-up 1.3s ease-in-out;
+}
+
+.info-inicio {
+  animation: fade 1s ease-in, slide-up 1.3s ease-in-out;
+}
+
+@keyframes fade {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+
+@keyframes slide-up {
+  from {
+      transform: translateY(100px);
+  } to {
+      transform: translateY(0);
+  }
 }
 
 /* fin inicio */
